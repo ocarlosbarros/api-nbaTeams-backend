@@ -2,10 +2,10 @@ on: [push, pull_request]
 
 jobs:
   eslint:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - name: Check git repository
-        uses:actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: Install node with a version 14
         uses: actions/setup-node@v1
