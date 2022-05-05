@@ -7,4 +7,4 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 app.use(Router);
 
-app.listen(PORT, () => console.log(`running on port: ${ PORT }`));
+app.listen(PORT, () => console.log(`running on port: ${PORT}`));
