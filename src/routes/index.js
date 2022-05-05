@@ -4,5 +4,4 @@ const TeamsController = require('../controllers/TeamsController');
 
 routes.get('/', TeamsController.getAll);
 
-
 module.exports = routes;
